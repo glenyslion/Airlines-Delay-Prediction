@@ -36,10 +36,14 @@ To handle class imbalance (since only **18.9%** of flights are delayed), we appl
 
 | Model                     | Accuracy | Precision | Recall | F1-score |
 |---------------------------|----------|-----------|--------|----------|
-| Logistic Regression       | 80.92%   | 0.4314    | 0.009  | 0.0175   |
-| Decision Tree (Weighted)  | 65.06%   | 0.2847    | 55.33% | 0.376    |
-| Random Forest (Weighted)  | 81.12%   | 0.5238    | 8.5%   | 0.1463   |
-| XGBoost (Weighted 4:1)    | **66.09%** | **0.2995** | **58.46%** | **0.3961** |
+| Logistic Regression       | 80.92%   | 43.14%    | 0.9%  | 1.75%   |
+| Decision Tree (Weighted)  | 65.06%   | 28.47%    | 55.33% | 37.6%    |
+| Neural Network  | 81.16%   | 56.45%    | 4.27% | 7.94%    |
+| KNN  | 76.9%   | 30.14%    | 16.27% | 21.14%    |
+| GAM  | 81.06%   | 56.32%    | 1.99% | 3.85%    |
+| Boosted Tree (Weighted)  | 65.85%   | 29.81%    | 58.67% | 39.53%    |
+| Random Forest (Weighted)  | 81.12%   | 52.38%    | 8.5%   | 14.63%   |
+| XGBoost (Weighted)    | **66.09%** | **29.95%** | **58.46%** | **39.61%** |
 
 ## Key Findings
 - **Departure time** is the strongest predictor of delays.
