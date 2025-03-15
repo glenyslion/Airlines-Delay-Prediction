@@ -51,11 +51,6 @@ To handle class imbalance (since only **18.9%** of flights are delayed), we appl
 - **Class weighting (4:1 ratio)** significantly improves recall for delayed flights.
 - **XGBoost outperformed other models**, providing the best trade-off between detecting delays and maintaining precision.
 
-## Future Work
-- Hyperparameter tuning for better performance.
-- Testing additional ensemble models.
-- Exploring deep learning approaches to further improve predictions.
-
 ## Repository Information
 - **Dataset:** [Kaggle Link](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations/data)
 - **Codebase:** [GitHub Repository](https://github.com/glenyslion/airlines_delay_prediction)
